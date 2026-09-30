@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ENCS3320-Webserver</title> <! -- Note : asked to be in red ,but we cannot force red title -->
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="lang-en">
+<!-- Top Navigation Bar -->
+<header class="topbar">
+    <div class="brand">ENCS3320-Webserver</div>
+    <nav class="switcher">
+        <a class="btn btn-pill active" href="/en" title="English pages">EN Pages</a>
+        <a class="btn btn-pill" href="/ar" title="Arabic pages">AR الصفحات</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1 class="h1-blue">Welcome to ENCS3320 - Computer Networks Webserver</h1>
+    <h2 class="h2-red">Team Members</h2>
+
+    <!-- Team table -->
+    <div class="card table-wrap">
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Student ID</th>
+                <th>Photo</th>
+                <th>Hobbies</th>
+                <th>Credit Hours</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Lara Daifallah</td>
+                <td>1230239</td>
+                <td><img src="/imgs/student1.png" alt="Lara" class="avatar"></td>
+                <td>Photography, sketching</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Shatha Abualrub</td>
+                <td>1231279</td>
+                <td><img src="/imgs/student2.png" alt="Shatha" class="avatar"></td>
+                <td>Reading, hiking</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Alaa Awashra</td>
+                <td>1230009</td>
+                <td><img src="/imgs/student3.png" alt="Alaa" class="avatar"></td>
+                <td>Coding, Designing</td>
+                <td>87</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Short bios -->
+    <section>
+        <div class="card">
+            <h3>About Us</h3>
+            <p> Lara Daifallah - A Third-Year Computer Engineering student with  strong skills in programming with different languages and enjoy solving problems through code. I’m also a member of the Google Developer Groups club, where I get to learn, share, and grow with other developers. Recently I’m Interested in Artificial Intelligence.</p>
+            <p>Shatha Abualrob - A Third-year computer engineering student with skills in C++, Python, and digital systems. Completed projects such as a library management system, a simple calculator, a traffic light controller in Verilog, and a basic image processing program in MATLAB.</p>
+            <p>Alaa Awashra - A Third-Year Computer Science student with a minor in Accounting. I have skills in Java, Python, and C, and I’m also an active member at Birzeit Astronomy Club, working on astronomical image processing.</p>
+        </div>
+    </section>
+
+    <!-- Networking topic -->
+    <section class="card">
+        <h3>Chapter one Review</h3>
+        <img src="/imgs/topic.jpg" class="banner" alt="Networking topic">
+        <p>We learned that the Internet is a huge “network of networks” Billions of devices—phones, laptops, servers—are all linked through different access technologies like WiFi, fiber, or mobile data. What makes this work smoothly is the use of protocols such as TCP and HTTP. These protocols act like traffic rules, making sure messages are sent, received, and understood the same way everywhere.</p>
+        <div class="grid two">
+            <div>
+                <h4>Steps in sending data</h4>
+                <ol>
+                    <li>A host application creates a message.</li>
+                    <li>The message is broken into packets.</li>
+                    <li>Packets travel across access networks to the Internet core.</li>
+                    <li>Routers forward them toward the destination.</li>
+                    <li>The receiving host reassembles the packets.</li>
+                </ol>
+            </div>
+            <div>
+                <h4>key concepts learned</h4>
+                <ul>
+                    <li>Internet as a “network of networks”</li>
+                    <li>Hosts at the edge (clients and servers)</li>
+                    <li>Access technologies: WiFi, DSL, 4G/5G</li>
+                    <li>Protocols everywhere: TCP/IP, HTTP, Ethernet</li>
+                    <li>Packet switching and routing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Useful links -->
+    <section class="links card">
+        <h3>Useful Links</h3>
+        <p>
+            <a href="https://www.birzeit.edu" target="_blank" rel="noopener">Birzeit University</a> ·
+            <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank" rel="noopener">Textbook Website</a> ·
+            <a href="/html/T025_1230009_en.html">Local File Request (EN)</a> ·
+        </p>
+    </section>
+</main>
+
+<footer class="footer">© ENCS3320 — 2025 summer Project</footer>
+</body>
+</html>
+
