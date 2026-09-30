@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ENCS3320-Webserver</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="lang-en">
+<header class="topbar">
+    <div class="brand">ENCS3320</div>
+    <nav class="switcher">
+        <a class="btn btn-pill" href="/en">EN Pages</a>
+        <a class="btn btn-pill" href="/ar">AR الصفحات</a>
+    </nav>
+</header>
+
+<main class="container narrow">
+    <h1 class="h1-blue">Local File Request</h1>
+    <div class="card">
+        <form class="file-form" action="/get" method="get">
+            <label for="file">Search for a file :</label>
+            <input id="file" name="file" placeholder="notes.txt or main_en.html or topic.jpg" required />
+            <input type="hidden" name="lang" value="en" />
+            <button type="submit" class="btn">Fetch File</button>
+        </form>
+    </div>
+    <p><a class="link" href="/main_en.html">← Back to main (EN)</a></p>
+</main>
+
+<footer class="footer">© ENCS3320 — 2025 Summer Project</footer>
+</body>
+</html>
