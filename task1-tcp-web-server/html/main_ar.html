@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>ENCS3320-Webserver</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="lang-ar">
+<!-- Top Nav -->
+<header class="topbar">
+    <div class="brand">ENCS3320</div>
+    <nav class="switcher">
+        <a class="btn btn-pill" href="/en" title="English pages">EN Pages</a>
+        <a class="btn btn-pill active" href="/ar" title="Arabic pages">AR الصفحات</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1 class="h1-blue">مرحباً بكم في ENCS3320 - خادم الشبكات</h1>
+    <h2 class="h2-red">أعضاء الفريق</h2>
+
+    <!-- Team table -->
+    <div class="card table-wrap">
+        <table>
+            <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>الرقم الجامعي</th>
+                <th>الصورة</th>
+                <th>الهوايات</th>
+                <th>الساعات المعتمدة</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>لارا ضيف الله</td>
+                <td>1230239</td>
+                <td><img src="/imgs/student1.png" alt="Lara" class="avatar"></td>
+                <td>التصوير، الرسم</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>شذى أبو الرب</td>
+                <td>1231279</td>
+                <td><img src="/imgs/student2.png" alt="Shatha" class="avatar"></td>
+                <td>القراءة، التنزه</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>الاء عواشرة</td>
+                <td>1230009</td>
+                <td><img src="/imgs/student3.png" alt="Alaa" class="avatar"></td>
+                <td>البرمجة، التصميم</td>
+                <td>87</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Short bios -->
+    <section>
+        <div class="card">
+            <h3>نبذة عنا</h3>
+            <p>لارا ضيف الله – طالبة في السنة الثالثة في هندسة الحاسوب، تمتلك مهارات قوية في البرمجة باستخدام عدة لغات، وتستمتع بحل المشكلات من خلال الكود. كما أنها عضو في نادي مطوري Google حيث تتعلم وتشارك وتنمو مع مطورين آخرين. ومؤخرًا أصبحت مهتمة بالذكاء الاصطناعي.</p>
+            <p>شذى أبو الرب – طالبة في السنة الثالثة في هندسة الحاسوب، لديها مهارات في ++C، وبايثون، والأنظمة الرقمية. أنجزت مشاريع مثل نظام إدارة مكتبة، آلة حاسبة بسيطة، متحكم بإشارة مرور بلغة Verilog، وبرنامج أساسي لمعالجة الصور باستخدام MATLAB.</p>
+            <p>آلاء عواشرة – طالبة في السنة الثالثة في علم الحاسوب، وتدرس تخصصًا فرعيًا في المحاسبة. تمتلك مهارات في Java وPython وC، وهي أيضًا عضو نشط في نادي الفلك بجامعة بيرزيت، تعمل على معالجة الصور الفلكية.</p>
+        </div>
+    </section>
+
+    <!-- Networking topic -->
+    <section class="card">
+        <h3>مراجعة للوحدة الاولى</h3>
+        <img src="/imgs/topic.jpg" class="banner" alt="Networking topic">
+        <p>تعلّمنا أن الإنترنت هو “شبكة من الشبكات”، حيث ترتبط مليارات الأجهزة — مثل الهواتف، الحواسيب المحمولة، والخوادم — من خلال تقنيات وصول مختلفة مثل الواي فاي، الألياف البصرية، أو شبكات الهاتف المحمول. ما يجعل هذا النظام يعمل بسلاسة هو استخدام البروتوكولات مثل TCP وHTTP، والتي تعمل مثل قوانين المرور، فتضمن أن الرسائل تُرسل وتُستقبل وتُفهم بالطريقة نفسها في كل مكان.</p>
+        <div class="grid two">
+            <div>
+                <h4>خطوات إرسال البيانات</h4>
+                <ol>
+                    <li>يتم انشاء رسالة من خلال التطبيق.</li>
+                    <li>تُقسّم الرسالة إلى حزم (Packets).</li>
+                    <li>تنتقل الحزم عبر شبكات الوصول إلى قلب الإنترنت.</li>
+                    <li>تقوم أجهزة التوجيه (Routers) بتمريرها نحو الوجهة.</li>
+                    <li>يقوم الجهاز المستقبِل بإعادة تجميع الحزم.</li>
+                </ol>
+            </div>
+            <div>
+                <h4>المفاهيم الرئيسية التي تعلمناها</h4>
+                <ul>
+                    <li>الإنترنت هو “شبكة من الشبكات”.</li>
+                    <li>المضيفون على الأطراف (عملاء وخوادم).</li>
+                    <li>تقنيات الوصول: WiFi، DSL، شبكات 4G/5G.</li>
+                    <li>البروتوكولات موجودة في كل مكان: TCP/IP، HTTP، Ethernet.</li>
+                    <li>تبديل الحزم (Packet Switching) والتوجيه.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Useful links -->
+    <section class="links card">
+        <h3>روابط مهمة</h3>
+        <p>
+            <a href="https://www.birzeit.edu" target="_blank" rel="noopener">جامعة بيرزيت</a> ·
+            <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank" rel="noopener">موقع الكتاب</a> ·
+            <a href="/html/T025_1230009_ar.html">طلب ملف محلي (AR)</a> ·
+        </p>
+    </section>
+</main>
+
+<footer class="footer">© ENCS3320 — مشروع صيف 2025</footer>
+</body>
+</html>
